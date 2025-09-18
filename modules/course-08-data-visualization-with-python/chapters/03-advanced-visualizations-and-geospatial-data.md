@@ -1,24 +1,26 @@
 # Course 8, Chapter 3: Advanced Visualizations and Geospatial Data
 
-## Summary
-Congratulations! You have completed this module. At this point in the course, you know:
+## Overview
+This chapter introduces geospatial visualization with Folium and advanced map styling. You learned how to configure base map tiles, center maps, add interactive markers and popups, group features, and build choropleth maps from regional boundary data.
 
-- Folium is a data visualization library in Python that helps people visualize geospatial data.
-- With Folium, you can create maps of different styles, such as street-level maps, stamen maps, and more.
-- A feature of Folium is that you can create different map styles using the `tiles` parameter.
-- With Folium, you can easily add markers on maps.
-- The `location` parameter specifies the latitude and longitude coordinates of the center point of the map.
-- Markers play a vital role in enhancing interactivity and adding context to maps.
-- The `folium.Marker()` function specifies location parameters.
-- The `popup` parameter provides a label upon being clicked.
-- Markers can be created using “feature group.”
-- A choropleth map is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable.
-- When creating a choropleth map, Folium requires a GeoJson file that includes geospatial data of the region.
-- The Mapbox Bright Tileset displays the name of every country when used on a map.
+## Folium Basics
+- Folium is a Python library for visualizing geospatial data.
+- Create maps with different base styles (e.g., street-level, Stamen) using the `tiles` parameter.
+- The `location` parameter sets the map center via latitude/longitude coordinates.
+
+## Markers and Interactivity
+- Add markers with `folium.Marker()`; specify `location` and optional `popup` text.
+- Use popups to label or describe locations on click.
+- Organize multiple markers with a feature group for clarity and control.
+
+## Choropleth Maps
+- Choropleths shade regions proportional to a statistical variable.
+- Building a choropleth requires a GeoJSON file containing regional boundaries.
+- The Mapbox Bright tileset can display country names to enhance geographic context.
 
 ## Takeaways
-- Use `tiles` to switch between map styles and tailor context.
-- Leverage markers, popups, and feature groups to enrich interactivity.
-- Build choropleths with appropriate GeoJSON boundaries and matched keys.
+- Switch `tiles` to tailor context; center with `location` for the target region.
+- Combine markers, popups, and feature groups to enrich interactivity.
+- Construct choropleths with proper GeoJSON boundaries and matched keys.
 
 

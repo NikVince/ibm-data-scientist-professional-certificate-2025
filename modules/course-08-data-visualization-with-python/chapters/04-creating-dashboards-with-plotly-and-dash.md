@@ -1,20 +1,20 @@
 # Course 8, Chapter 4: Creating Dashboards with Plotly and Dash
 
-## Summary
-Congratulations! You have completed this module. At this point in the course, you know:
+## Overview
+This chapter covers building interactive, web-based dashboards using Dash. You learned the roles of Dash Core and HTML components, how callbacks connect inputs to outputs, and how to structure a simple reactive app.
 
-- Dash is an Open-Source User Interface Python library for creating reactive, web-based applications.
-- It is easy to build Graphical User Interfaces using Dash as it abstracts all technologies required to make the applications.
-- There are two components of Dash: Core and HTML components.
-- The `dash_core_components` describe higher-level interactive components generated with JavaScript, HTML, and CSS through the React.js library.
-- The `dash_html_components` library has a component for every HTML tag.
-- A callback function is a Python function that is automatically called by Dash whenever an input component's property changes.
-- The `@app.callback` decorator decorates the callback function in order to tell Dash to call it whenever there is a change in the input component value.
-- The callback function takes input and output components as parameters and performs operations to return the desired result for the output component.
+## Components
+- Dash Core Components provide higher-level interactive UI elements.
+- Dash HTML Components expose a component for every HTML tag.
+- Together they allow rapid composition of layouts and controls.
+
+## Callbacks
+- A callback is a Python function invoked when an input component property changes.
+- Decorate with `@app.callback` to define Inputs and Outputs and update UI reactively.
 
 ## Takeaways
-- Use Core and HTML components together to build interactive UIs quickly.
-- Structure callbacks with clear Inputs and Outputs to react to user changes.
+- Combine Core and HTML components to build interactive dashboards quickly.
+- Define clear Inputs/Outputs in callbacks to respond to user interactions.
 - Keep layout and callbacks organized for maintainability.
 
 
