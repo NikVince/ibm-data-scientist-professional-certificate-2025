@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Made with Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange)
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Course%2010%20Completed-green)
+![Status](https://img.shields.io/badge/Status-Course%2011%20Completed-green)
 
 This repository is a structured backup and portfolio of my work as I progress through the IBM Data Science Professional Certificate on Coursera (2025 cohort). It includes:
 
@@ -13,7 +13,7 @@ This repository is a structured backup and portfolio of my work as I progress th
 
 ## Current Progress
 
-**Completed Courses (10/12):**
+**Completed Courses (11/12):**
 - ✅ Course 1: What is Data Science?
 - ✅ Course 2: Tools for Data Science
 - ✅ Course 3: Data Science Methodology
@@ -24,12 +24,10 @@ This repository is a structured backup and portfolio of my work as I progress th
 - ✅ Course 8: Data Visualization with Python
 - ✅ Course 9: Machine Learning with Python
 - ✅ Course 10: Applied Data Science Capstone
+- ✅ Course 11: Generative AI: Elevate Your Data Science Career
 
 **Currently Working On:**
-- 🔄 Course 11: Generative AI: Elevate Your Data Science Career
-
-**Upcoming:**
-- ⏳ Course 12: Data Scientist Career Guide and Interview Preparation
+- 🔄 Course 12: Data Scientist Career Guide and Interview Preparation
 
 ## Repository Structure
 
@@ -70,12 +68,10 @@ Links to each module's README with outcomes, skills, and progress:
 - ✅ [Course 8: Data Visualization with Python](modules/course-08-data-visualization-with-python/README.md)
 - ✅ [Course 9: Machine Learning with Python](modules/course-09-machine-learning-with-python/README.md)
 - ✅ [Course 10: Applied Data Science Capstone](modules/course-10-applied-data-science-capstone/README.md)
+- ✅ [Course 11: Generative AI: Elevate Your Data Science Career](modules/course-11-generative-ai-elevate-your-data-science-career/README.md)
 
 **In Progress:**
-- 🔄 [Course 11: Generative AI: Elevate Your Data Science Career](modules/course-11-generative-ai-elevate-your-data-science-career/README.md)
-
-**Upcoming:**
-- ⏳ [Course 12: Data Scientist Career Guide and Interview Preparation](modules/course-12-data-scientist-career-guide-and-interview-preparation/README.md)
+- 🔄 [Course 12: Data Scientist Career Guide and Interview Preparation](modules/course-12-data-scientist-career-guide-and-interview-preparation/README.md)
 
 ## Getting Started
 
